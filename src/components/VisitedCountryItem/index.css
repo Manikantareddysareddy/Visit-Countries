@@ -1,0 +1,39 @@
+.visited-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #334155;
+  margin: 10px;
+
+  width: 18vw;
+  border-radius: 7px;
+}
+.imageEl {
+  height: 20vh;
+  width: 100%;
+}
+.remove-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-between;
+}
+.visited-list-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.remove-Btn {
+  background-color: transparent;
+  border: 0 none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px #ffffff solid;
+  font-size: 16px;
+}
